@@ -5,9 +5,7 @@
 
 .row-content {
     margin:0px auto;
-    padding: 30px 0px 0px 0px;
-    border-bottom: 1px solid;
-    border-color: darkturquoise;
+    padding: 40px 0px 0px 0px;
     min-height: 250px;
 }
 
@@ -37,4 +35,12 @@ body{
 
 .navbar-dark {
      background-color: #512DA8;
+}
+
+.card-header{
+    background: orangered;
+}
+
+.padd{
+    padding: 50px;
 }
