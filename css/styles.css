@@ -37,20 +37,14 @@ body{
      background-color: #512DA8;
 }
 
-
-.padd{
-    padding: 50px;
-}
-
 .tab-content {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 20px;
 }
-.btn{
-    float: left;
-}
+
+
 
 .carousel {
     background: #512DA8
@@ -67,4 +61,8 @@ body{
     left: 0;
     min-height: 250px;
 
+}
+
+.modal-body {
+ font-color: red;
 }
