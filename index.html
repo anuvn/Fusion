@@ -34,7 +34,7 @@
                     <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                    <a onclick="document.getElementById(loginModal).innerHTML(open)">
+                    <a id="loginBtn">
                         <span class="fa fa-sign-in"></span> login
                     </a>
                 </span>
@@ -94,10 +94,10 @@
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
-                    <img src="img/logo.png" align="middle" class="img-fluid">
+                    <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
-                    <button type="button" class="btn btn-warning btn-sm btn-block">
+                    <button type="button" class="btn btn-warning btn-sm btn-block" id="resBtn">
                         Reserve table
                     </button>
                 </div>
@@ -376,8 +376,19 @@
         });
     });
 </script>
-<script>
 
+<script>
+    $(document).ready(function(){
+        $("#loginBtn").click(function(){
+            $("#loginModal").modal('toggle');
+        });
+    });
+    $(document).ready(function(){
+        $("#resBtn").click(function(){
+            $("#resModal").modal('toggle');
+        });
+    });
+    
 </script>
 
 </body>
